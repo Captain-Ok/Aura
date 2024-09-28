@@ -57,7 +57,7 @@ function takeCommand(message) {
         speak("My Name is Aura")
     } 
     else if (message.includes("who are you")) {
-        speak("I am a virtual assistant created by Captain oggy sir.");
+        speak("I am a virtual assistant.");
         recognition.stop();
     } else if (message.includes("open youtube")) {
         speak("opening youtube")
